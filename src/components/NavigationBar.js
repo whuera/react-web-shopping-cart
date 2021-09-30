@@ -22,9 +22,10 @@ class NavigationBar extends Component {
     return (
         <Navbar bg="dark" variant="dark">
           <Nav className="mr-auto">
-            <Link to={"add-product"} className="nav-link">Add Product</Link>
-            <Link to={"create-customer"} className="nav-link">Create Customer</Link>
-            <Link to={"shopping-cart"} className="nav-link">Shopping Cart</Link>
+          <Link to={""} className="nav-link"><i className="fas fa-home"></i> Home</Link>
+            <Link to={"add-product"} className="nav-link"><i className="fas fa-plus-circle"></i> Add Product</Link>
+            <Link to={"create-customer"} className="nav-link"><i className="fas fa-address-book"></i> Create Customer</Link>
+            <Link to={"shopping-cart"} className="nav-link"><i className="fas fa-cart-plus"></i> Shopping Cart</Link>
           </Nav>
         </Navbar>
     );

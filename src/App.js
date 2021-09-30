@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
     const marginTop = {
         marginTop:"20px",
-        marginLeft:"30px"
+        marginLeft:"5px"
     };
 
     return (
